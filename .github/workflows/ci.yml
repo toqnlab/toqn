@@ -20,4 +20,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: shellcheck scripts/install.sh scripts/toqn-hook.sh
+      - run: shellcheck --severity=error scripts/install.sh scripts/toqn-hook.sh
