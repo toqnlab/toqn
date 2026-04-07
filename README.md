@@ -189,6 +189,16 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
 
 ---
 
+## Issues & Feedback
+
+This repo is the place to report bugs and request features for [toqn.dev](https://toqn.dev) — including the dashboard, installer, hook, and email reports.
+
+- [Report a bug](https://github.com/toqnlab/toqn/issues/new?labels=bug&template=bug_report.md)
+- [Request a feature](https://github.com/toqnlab/toqn/issues/new?labels=enhancement&template=feature_request.md)
+- [Browse open issues](https://github.com/toqnlab/toqn/issues)
+
+---
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
