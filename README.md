@@ -1,17 +1,28 @@
 <p align="center">
-  <h1 align="center">toqn</h1>
-  <p align="center">Behaviour analytics for developers using coding agents</p>
+  <a href="https://toqn.dev"><strong>toqn.dev</strong></a>
+</p>
+
+<h1 align="center">toqn</h1>
+
+<p align="center">
+  Behaviour analytics for developers using coding agents
 </p>
 
 <p align="center">
+  <a href="https://toqn.dev"><img src="https://img.shields.io/badge/toqn.dev-live-brightgreen" alt="toqn.dev"></a>
   <a href="https://github.com/toqnlab/toqn/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
   <a href="https://github.com/toqnlab/toqn/actions"><img src="https://github.com/toqnlab/toqn/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-  <a href="https://toqn.dev"><img src="https://img.shields.io/badge/toqn.dev-live-brightgreen" alt="toqn.dev"></a>
 </p>
 
 <p align="center">
   Track your AI coding sessions — tokens, tools, costs, and workflow patterns.<br>
-  GitHub-style heatmaps. Public profiles. Free.
+  GitHub-style heatmaps. Public profiles. Free and open source.
+</p>
+
+<p align="center">
+  <a href="https://toqn.dev">
+    <img src="docs/screenshots/hero.png" alt="toqn.dev landing page" width="700">
+  </a>
 </p>
 
 ---
@@ -57,27 +68,44 @@ toqn hooks into your coding agent's lifecycle and extracts **session metadata on
 
 ---
 
-## How It Works
+## Dashboard
 
-**1. Install the hook** — one command sets up a lightweight shell hook for your agent(s).
+Visit [toqn.dev](https://toqn.dev) to see your profile — heatmaps, activity feed, tool breakdowns, cost tracking, and more.
 
-**2. Code normally** — the hook fires automatically when a coding session ends. It parses the session transcript for metadata (token counts, tool usage, git operations) and sends a small JSON payload to `toqn.dev/api/ingest/v2`.
+<p align="center">
+  <a href="https://toqn.dev">
+    <img src="docs/screenshots/dashboard-preview.png" alt="toqn dashboard — heatmap, activity feed, tool usage" width="700">
+  </a>
+</p>
 
-**3. See your dashboard** — visit `toqn.dev/username` for GitHub-style heatmaps, model breakdowns, tool frequency charts, cost tracking, streaks, and more.
+<p align="center">
+  <a href="https://toqn.dev">
+    <img src="docs/screenshots/charts.png" alt="toqn charts — code velocity, subagents, skills" width="700">
+  </a>
+</p>
 
----
-
-## Dashboard Features
+**Features include:**
 
 - **Yearly heatmap** — GitHub-style contribution graph for your AI usage
 - **Cost tracking** — per model, per day, per month spending breakdown
-- **Public profiles** — shareable profile pages at `toqn.dev/username`
+- **Public profiles** — shareable at [toqn.dev/username](https://toqn.dev)
 - **Streak tracking** — current and longest usage streaks
 - **Model breakdown** — which models you use and how much
 - **Tool frequency** — which agent tools you rely on most
 - **Code velocity** — lines added/removed over time
+- **Subagent & skill analytics** — agent spawns and skill invocations over time
 - **Weekly reports** — email digests with charts and insights
 - **Badges** — earn achievements for streaks, milestones, and patterns
+
+---
+
+## How It Works
+
+**1. Install the hook** — one command sets up a lightweight shell hook for your agent(s).
+
+**2. Code normally** — the hook fires automatically when a coding session ends. It parses the session transcript for metadata (token counts, tool usage, git operations) and sends a small JSON payload to [toqn.dev](https://toqn.dev).
+
+**3. See your dashboard** — visit [toqn.dev/username](https://toqn.dev) for GitHub-style heatmaps, model breakdowns, tool frequency charts, cost tracking, streaks, and more.
 
 ---
 
@@ -100,7 +128,7 @@ curl -fsSL toqn.dev/install | bash
 ```
 
 The installer will:
-1. Start a device authorization flow (opens your browser to approve)
+1. Start a device authorization flow (opens your browser at [toqn.dev](https://toqn.dev) to approve)
 2. Download the hook script to `~/.toqn/hook.sh`
 3. Configure hooks for any detected agents (Claude Code, Cursor, Codex)
 4. Save your API key to your shell config
