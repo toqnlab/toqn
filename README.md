@@ -51,7 +51,7 @@ toqn hooks into your coding agent's lifecycle and extracts **session metadata on
 | Metric | Description |
 |--------|-------------|
 | **Tokens** | Input, output, cache creation, cache read — per turn |
-| **Model** | Which model was used (e.g. claude-sonnet-4, gpt-4.1) |
+| **Model** | Which model was used (e.g. claude-opus-4-6, gpt-5.4) |
 | **Tools** | How often each tool was invoked (Bash, Edit, Read, Write, etc.) |
 | **Git operations** | Commits, pushes, PRs created |
 | **File operations** | Files touched, grouped by extension |
