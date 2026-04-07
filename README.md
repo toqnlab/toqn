@@ -16,7 +16,7 @@
 
 <p align="center">
   Track your AI coding sessions — tokens, tools, costs, and workflow patterns.<br>
-  GitHub-style heatmaps. Public profiles. Free and open source.
+  GitHub-style heatmaps. Open source.
 </p>
 
 <p align="center">
