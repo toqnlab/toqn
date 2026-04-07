@@ -5,7 +5,7 @@
 <h1 align="center">toqn</h1>
 
 <p align="center">
-  Behaviour analytics for developers using coding agents
+  Open-source installer and hook for <a href="https://toqn.dev">toqn.dev</a>
 </p>
 
 <p align="center">
@@ -15,8 +15,8 @@
 </p>
 
 <p align="center">
-  Track your AI coding sessions — tokens, tools, costs, and workflow patterns.<br>
-  GitHub-style heatmaps. Open source.
+  The install script and session hook that power <a href="https://toqn.dev">toqn.dev</a> — behaviour analytics for developers using coding agents.<br>
+  See exactly what runs on your machine. Fully auditable.
 </p>
 
 <p align="center">
