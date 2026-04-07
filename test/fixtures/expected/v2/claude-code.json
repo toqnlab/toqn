@@ -1,0 +1,20 @@
+{
+  "session_id": "",
+  "project": "my-app",
+  "model": "claude-sonnet-4-20250514",
+  "turns": [
+    { "input": 1500, "output": 300, "cache_create": 200, "cache_read": 100 },
+    { "input": 2000, "output": 500, "cache_create": 0, "cache_read": 150 }
+  ],
+  "tools": {},
+  "lines_added": 0,
+  "lines_removed": 0,
+  "bash_categories": {},
+  "git_commits": 0,
+  "git_pushes": 0,
+  "prs_created": 0,
+  "subagents": {},
+  "skills": {},
+  "tool_errors": 0,
+  "files_touched": []
+}

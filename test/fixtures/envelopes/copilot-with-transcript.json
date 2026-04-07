@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-04-06T10:30:00.000Z",
+  "cwd": "/Users/test/projects/my-app",
+  "sessionId": "copilot-sess-456",
+  "hookEventName": "Stop",
+  "transcript_path": "PLACEHOLDER",
+  "stop_hook_active": false
+}

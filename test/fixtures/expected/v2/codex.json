@@ -1,0 +1,22 @@
+{
+  "model": "gpt-5.4",
+  "input_tokens": 40550,
+  "output_tokens": 232,
+  "cached_input_tokens": 9600,
+  "reasoning_output_tokens": 58,
+  "num_turns": 1,
+  "tools": {
+    "exec_command": 2,
+    "read_file": 1
+  },
+  "bash_categories": {
+    "git_commit": 1,
+    "git_read": 1
+  },
+  "git_commits": 1,
+  "git_pushes": 0,
+  "prs_created": 0,
+  "tool_errors": 0,
+  "session_id": "019d5fdd-6a7f-7420-8f63-674b31244d10",
+  "project": "my-app"
+}

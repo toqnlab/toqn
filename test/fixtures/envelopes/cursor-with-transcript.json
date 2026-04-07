@@ -1,0 +1,7 @@
+{
+  "hook_event_name": "stop",
+  "model": "claude-sonnet-4-20250514",
+  "workspace_roots": ["/Users/test/projects/my-app"],
+  "conversation_id": "test-conv-456",
+  "transcript_path": "PLACEHOLDER"
+}

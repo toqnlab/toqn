@@ -1,0 +1,14 @@
+{
+  "name": "@toqnlab/toqn",
+  "description": "Behaviour analytics for developers using coding agents",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.1",
+    "typescript": "^5.8.3"
+  }
+}

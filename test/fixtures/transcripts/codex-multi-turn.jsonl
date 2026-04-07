@@ -1,0 +1,16 @@
+{"timestamp":"2026-04-05T22:57:48.000Z","type":"session_meta","payload":{"id":"019d5fdd-6a7f-7420-8f63-674b31244d10","cwd":"/Users/test/projects/my-app","originator":"Codex Desktop","cli_version":"0.118.0-alpha.2","source":"vscode","model_provider":"openai"}}
+{"timestamp":"2026-04-05T22:57:49.000Z","type":"event_msg","payload":{"type":"task_started","turn_id":"turn-1"}}
+{"timestamp":"2026-04-05T22:57:49.100Z","type":"turn_context","payload":{"turn_id":"turn-1","cwd":"/Users/test/projects/my-app","model":"gpt-5.4","effort":"xhigh"}}
+{"timestamp":"2026-04-05T22:57:50.000Z","type":"response_item","payload":{"type":"function_call","name":"exec_command","arguments":"{\"cmd\":\"npm install express\"}","call_id":"call_1a"}}
+{"timestamp":"2026-04-05T22:57:51.000Z","type":"response_item","payload":{"type":"function_call_output","call_id":"call_1a","output":"added 1 package"}}
+{"timestamp":"2026-04-05T22:57:52.000Z","type":"event_msg","payload":{"type":"token_count","info":{"total_token_usage":{"input_tokens":10000,"cached_input_tokens":2000,"output_tokens":500,"reasoning_output_tokens":100,"total_tokens":10500},"last_token_usage":{"input_tokens":10000,"cached_input_tokens":2000,"output_tokens":500,"reasoning_output_tokens":100,"total_tokens":10500}}}}
+{"timestamp":"2026-04-05T22:57:53.000Z","type":"event_msg","payload":{"type":"task_complete","turn_id":"turn-1","last_agent_message":"Installed express."}}
+{"timestamp":"2026-04-05T22:58:00.000Z","type":"event_msg","payload":{"type":"task_started","turn_id":"turn-2"}}
+{"timestamp":"2026-04-05T22:58:00.100Z","type":"turn_context","payload":{"turn_id":"turn-2","cwd":"/Users/test/projects/my-app","model":"gpt-5.4","effort":"xhigh"}}
+{"timestamp":"2026-04-05T22:58:01.000Z","type":"response_item","payload":{"type":"function_call","name":"exec_command","arguments":"{\"cmd\":\"git commit -m \\\"feat: add server\\\"\"}","call_id":"call_2a"}}
+{"timestamp":"2026-04-05T22:58:02.000Z","type":"response_item","payload":{"type":"function_call_output","call_id":"call_2a","output":"[main abc1234] feat: add server"}}
+{"timestamp":"2026-04-05T22:58:03.000Z","type":"response_item","payload":{"type":"function_call","name":"read_file","arguments":"{\"path\":\"server.js\"}","call_id":"call_2b"}}
+{"timestamp":"2026-04-05T22:58:04.000Z","type":"response_item","payload":{"type":"function_call_output","call_id":"call_2b","output":"const express = require('express');"}}
+{"timestamp":"2026-04-05T22:58:05.000Z","type":"event_msg","payload":{"type":"token_count","info":{"total_token_usage":{"input_tokens":25000,"cached_input_tokens":8000,"output_tokens":1200,"reasoning_output_tokens":300,"total_tokens":26200},"last_token_usage":{"input_tokens":15000,"cached_input_tokens":6000,"output_tokens":700,"reasoning_output_tokens":200,"total_tokens":15700}}}}
+{"timestamp":"2026-04-05T22:58:06.000Z","type":"event_msg","payload":{"type":"agent_message","message":"Committed."}}
+{"timestamp":"2026-04-05T22:58:07.000Z","type":"event_msg","payload":{"type":"task_complete","turn_id":"turn-2","last_agent_message":"Committed."}}

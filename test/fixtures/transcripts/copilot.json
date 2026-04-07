@@ -1,0 +1,68 @@
+[
+  {
+    "role": "user",
+    "content": "Create a new file called hello.ts with a greeting function"
+  },
+  {
+    "role": "assistant",
+    "model": "gpt-4o",
+    "content": "I'll create that file for you.",
+    "tool_calls": [
+      {
+        "id": "call_1",
+        "type": "function",
+        "function": {
+          "name": "createFile",
+          "arguments": "{\"file\":\"/Users/test/projects/my-app/hello.ts\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_1",
+    "content": "File created successfully"
+  },
+  {
+    "role": "user",
+    "content": "Now edit it to add an export and run the tests"
+  },
+  {
+    "role": "assistant",
+    "model": "gpt-4o",
+    "content": "I'll edit the file and run the tests.",
+    "tool_calls": [
+      {
+        "id": "call_2",
+        "type": "function",
+        "function": {
+          "name": "editFiles",
+          "arguments": "{\"file\":\"/Users/test/projects/my-app/hello.ts\"}"
+        }
+      },
+      {
+        "id": "call_3",
+        "type": "function",
+        "function": {
+          "name": "runTerminalCommand",
+          "arguments": "npm test"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_2",
+    "content": "File edited successfully"
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_3",
+    "content": "All tests passed"
+  },
+  {
+    "role": "assistant",
+    "model": "gpt-4o",
+    "content": "Done! The file has been updated and all tests pass."
+  }
+]
